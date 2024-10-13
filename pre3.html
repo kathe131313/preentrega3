@@ -11,15 +11,16 @@
 </head>
 
 <body>
-    <div class="container mt-5">
+    <div class="container mt-5 text-center">
         <h1>Resultados de Estudios</h1>
 
-        <!-- Contenedor para mostrar alertas dinámicas -->
-    <div id="alertasResultados"></div>
-
+        <!-- Contenedor para mostrar alertas de resultados dinámica -->
+        <div id="alertasResultados"></div>
+        <!-- Contenedor para mostrar alertas generales de forma dinámica -->
+        <div id="contenedorMensajesGenerales" class="alert" style="display: none;"></div>
 
         <div class="mb-3">
-            <label for="tipoEstudio" class="form-label">Tipo de Estudio</label>
+            <label for="tipoEstudio" class="form-label font-weight bold">Tipo de Estudio</label>
             <select id="tipoEstudio" class="form-select">
                 <option value="">Seleccione un tipo de estudio</option>
                 <option value="Vitamina D">Vitamina D</option>

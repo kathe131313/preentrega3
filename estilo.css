@@ -7,6 +7,7 @@ body {
 
 h1 {
     color: #333;
+    align-content: center;
 }
 
 button {
@@ -28,4 +29,24 @@ canvas {
     margin-top: 20px;
     background-color: white;
     border: 1px solid #ccc;
+}
+.alert {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.alert-warning {
+    background-color: #ffc107; /* Amarillo */
+    color: #856404; /* Texto oscuro */
+}
+
+.alert-danger {
+    background-color: #dc3545; /* Rojo */
+    color: #fff; /* Texto blanco */
+}
+
+.alert-success {
+    background-color: #28a745; /* Verde */
+    color: #fff; /* Texto blanco */
 }
